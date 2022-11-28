@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewItemActivity"
+    android:padding="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <ProgressBar
+            android:id="@+id/add_item_progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+        <EditText
+            android:id="@+id/item_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Item Name"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/item_desc_et"
+            android:layout_below="@+id/item_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Enter Item Name"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/item_url_et"
+            android:layout_below="@+id/item_desc_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Add Image URL"/>
+        <EditText
+            android:id="@+id/item_price_et"
+            android:layout_below="@+id/item_url_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Enter Item Price"/>
+        <EditText
+            android:id="@+id/item_stock_et"
+            android:layout_below="@+id/item_price_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:hint="Enter Item Stock"/>
+
+        <Button
+            android:id="@+id/add_item_button"
+            android:layout_below="@+id/item_stock_et"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="#FFFFFF"
+            android:text="Add Item"/>
+    </RelativeLayout>
+
+</ScrollView>
