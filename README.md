@@ -38,4 +38,4 @@ In this tab, owner can see the list of users who have registered to this applcia
 
 ### Setting up on your own system
 
-To setup this applciation on your system, first follow the steps mentioned in the README of [BusinessAppMaker](https://github.com/neel1998/BusinessAppMaker). After making these changes, update the ```mainPath``` variable of ```make_apk.sh``` script in the repository based on the installation location of this repo in your system.
+To setup this applciation on your system, first follow the steps mentioned in the README of [BusinessAppMaker](https://github.com/rahul2805/HomeBusinessMaker). After making these changes, update the ```mainPath``` variable of ```make_apk.sh``` script in the repository based on the installation location of this repo in your system.
